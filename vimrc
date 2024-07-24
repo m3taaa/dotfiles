@@ -27,6 +27,8 @@ call plug#begin()
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
 	Plug 'tpope/vim-commentary'
+	Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
 
-let g:airline_theme='atomic'
+let g:airline_theme='dracula'
+colorscheme	dracula
