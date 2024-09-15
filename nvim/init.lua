@@ -3,8 +3,8 @@
 --
 
 vim.cmd([[
-    let g:user42 = 'mmeerber'
-    let g:mail42 = 'mmeerber@student.s19.be'
+    let g:user42 = 'login'
+    let g:mail42 = 'mail'
 ]])
 
 require('packer').startup(function()
